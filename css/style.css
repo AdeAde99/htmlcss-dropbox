@@ -61,14 +61,14 @@ html {
     width: 100%;
 }
 
-h1 {
+.container80 h1 {
     font-size: 5.6rem;
     padding-top: 6rem;
     font-weight: 900;
 }
 
 .container80 {
-    width: 80%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -113,4 +113,55 @@ h1 {
 
 .jumboDescription i {
     margin-top: 1em;
+}
+
+main {
+    max-width: 65%;
+    margin: auto;
+    height: 500vh;
+}
+
+.Section1main {
+    margin-top: 30vh;
+}
+
+.Titlefont {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.circle {
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+    color: white;
+}
+
+.cerchioAzzurro {
+    border: 4px solid #0061ff;
+    line-height: 14px;
+    width: 22px;
+}
+
+.cerchioBianco {
+    border: 1px solid gray;
+    width: 21px; 
+    line-height: 19px;
+}
+
+.checkboxDiv {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.PlanContainer {
+    border: 1px solid grey;
+    float: left;
+    width: calc((100% - 10em) / 3);
+    height: 100vh;
+}
+
+.middlePlanContainer {
+    margin-left: 5em;
+    margin-right: 5em;
 }
