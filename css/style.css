@@ -7,3 +7,30 @@
 html {
     font-family: 'Open Sans', sans-serif;
 }
+
+.linkStyle {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.font400 {
+    font-weight: 500;
+}
+
+.topbarSection {
+    margin: 1em;
+}
+
+.TopBar {
+    background-color: aqua;
+    height: 10vh;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
