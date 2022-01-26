@@ -14,28 +14,49 @@ html {
     display: inline-block;
 }
 
-.font400 {
+.font500 {
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .TopBar {
-    background-color: aqua;
     height: 10vh;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
+.TopBarListElement {
+    padding-left: 2.5em;
 }
 
 .inline-block {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .float-right {
     float: right;
 }
 
+.topbarSection2 {
+    margin-top: -0.35em;
+    padding-right: 1em;
+}
+
+.ButtonStyle {
+    background-color: #0061ff;
+    border: none;
+    padding: 7px 20px;
+}
+
+.white {
+    color: white;
+}
 
 
 
 .sezione_inferioreHeader {
-    height: 85vh;
+    height: 100vh;
     background-color: #b4d0e7;
     width: 100%;
 }
@@ -53,16 +74,17 @@ h1 {
 
 .jumbo {
     float: right;
+    max-width: 70%;
 }
 
 .jumboimg {
-    width: 60em;
-    height: 50vh;
-    object-fit: cover;
+    height: 70vh;
+    object-fit: fill;
+    border-radius: ;
 }
 
 .jumboDescription {
-    width: 30%;
+    max-width: 30%;
     float: left;
     height: 30vh;
     background-color: blueviolet;
@@ -71,7 +93,7 @@ h1 {
 .clearfix::after {
     content: '';
     display: table;
-    clear: left;
+    clear: both;
 }
 
 .padding_imgDescription {
