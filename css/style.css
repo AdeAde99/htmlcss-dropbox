@@ -18,10 +18,6 @@ html {
     font-weight: 500;
 }
 
-.topbarSection {
-    margin: 1em;
-}
-
 .TopBar {
     background-color: aqua;
     height: 10vh;
@@ -33,4 +29,51 @@ html {
 
 .float-right {
     float: right;
+}
+
+
+
+
+.sezione_inferioreHeader {
+    height: 85vh;
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+h1 {
+    font-size: 5.6rem;
+    padding-top: 6rem;
+    font-weight: 900;
+}
+
+.container80 {
+    width: 80%;
+    margin: auto;
+}
+
+.jumbo {
+    float: right;
+}
+
+.jumboimg {
+    width: 60em;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.jumboDescription {
+    width: 30%;
+    float: left;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: left;
+}
+
+.padding_imgDescription {
+    padding-top: 3rem;
 }
