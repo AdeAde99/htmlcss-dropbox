@@ -246,6 +246,12 @@ main {
     margin-bottom: 1em;
 }
 
+
+
+
+
+
+
 .partnerDiv {
     max-width: 60%;
     margin-right: 3em;
@@ -262,6 +268,7 @@ main {
 
 .partner {
     margin-top: 45vh;
+    height: 70vh;
 }
 
 .fontPartner {
@@ -276,3 +283,36 @@ main {
     color: black;
     text-decoration: none;
 }
+
+
+
+
+
+.sezioneOperazioni {
+    margin-bottom: 30vh;
+}
+
+.titoloOperazioni {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.operazione {
+    max-width: calc((100% - 10em) / 3);
+    margin-top: 5vh;
+}
+
+.operazioneImg {
+    object-fit: cover;
+    height: 30vh;
+}
+
+
+.middleOperazioni {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+
+
+
