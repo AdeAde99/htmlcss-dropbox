@@ -223,3 +223,25 @@ main {
 .margin1-5 {
     margin-top: 1.5em;
 }
+
+.PlanEnterprise {
+    width: 100%;
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 3em;
+}
+
+.Team {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.enterpriseDescription {
+    max-width: 70%;
+}
+
+.Team i {
+    margin-bottom: 1em;
+}
