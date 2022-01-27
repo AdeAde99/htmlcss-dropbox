@@ -38,8 +38,11 @@ html {
     float: right;
 }
 
+.float-left {
+    float: left;
+}
+
 .topbarSection2 {
-    margin-top: -0.35em;
     padding-right: 1em;
 }
 
@@ -47,6 +50,7 @@ html {
     background-color: #0061ff;
     border: none;
     padding: 7px 20px;
+    text-decoration: none;
 }
 
 .white {
@@ -107,8 +111,8 @@ html {
     margin-bottom: 1em;
 }
 
-.jumboDescription button {
-    margin-bottom: 0.5em;
+.jumboDescription div {
+    margin-top: 1em;
 }
 
 .jumboDescription i {
@@ -158,10 +162,64 @@ main {
     border: 1px solid grey;
     float: left;
     width: calc((100% - 10em) / 3);
-    height: 100vh;
+    height: 110vh;
 }
 
 .middlePlanContainer {
     margin-left: 5em;
     margin-right: 5em;
+}
+
+.textCenter {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.font9002 {
+    font-weight: 900;
+    font-size: 1.7em;
+}
+
+.font9003 {
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.font500s {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.fontgray1em {
+    color: rgb(163, 163, 163);
+    font-size: 1em;
+}
+
+.linkUnderline {
+    color: #0464ff;
+    text-decoration: underline #85c8ff;
+}
+
+.hrwidth {
+    width: 20%;
+}
+
+.check {
+    color: #0061ff;
+    font-weight: 500;
+}
+
+.font500s {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.vertical-middle {
+    vertical-align: middle;
+}
+
+.margin1-5 {
+    margin-top: 1.5em;
 }
