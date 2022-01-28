@@ -428,16 +428,45 @@ main {
 }
 
 
-/*
-#a2d39b
-#d0e9cd
 
-#61082b
-#0093ce
-#ff1c1c
+.sezioneDomande {
+    float: left;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.TitoloDomande {
+    font-weight: bolder;
+    font-size: 2rem;
+}
 
-#d5001f
-#b4d0e7
-#0d2481
-#ffd830
-*/
+.fontDomanda {
+    font-weight: 800;
+    font-size: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.sezioneDomande hr {
+    color: gray;
+}
+
+.fa-angle-down {
+    font-size: 2em;
+    vertical-align: middle;
+    position: absolute;
+    right: 13em;
+}
+
+.sezioneDomande hr {
+    margin-top: 1rem;
+}
+
+.height {
+    height: 5vh;
+    margin-top: 2rem;
+}
+
+#marginehr {
+    margin-top: 4rem;
+}
