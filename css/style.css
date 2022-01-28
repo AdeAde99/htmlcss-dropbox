@@ -341,29 +341,66 @@ main {
     height: 30vh;
     background-color: darkgreen;
     border: 1px solid black;
+    position: relative;
 }
 
-.width80 {
+.width85 {
     width: 85%;
     margin: auto;
 }
 
-.width80 img {
+.width85 img {
     width: 30%;
     margin-top: 5em;
     margin-bottom: 2em;
 }
 
-.width80 hr {
+.width85 hr {
     width: 10%;
     color: black;
     height: 1px;
     margin-bottom: 3em;
 }
 
-.width80 p {
+.width85 p {
     margin-bottom: 3em;
 }
+
+.whitesvg {
+    filter: invert(1);
+    width: 50%;
+    transform-origin: center;
+    position: absolute;
+    left: 25%;
+}
+
+.top1 {
+    top: 40%;
+}
+.top2 {
+    top: 30%;
+}
+.top3 {
+    top: 50%;
+}
+.top4 {
+    top: 40%;
+}
+.top5 {
+    top: 40%;
+}
+.top6 {
+    top: 50%;
+}
+.top7 {
+    top: 40%;
+}
+.top8 {
+    top: 35%;
+}
+
+
+
 /*
 #a2d39b
 #d0e9cd
